@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <>
       <div className="flex flex-col items-center mt-56 text-center">
-        <h2 className="mt-4 text-3xl md:text-4xl lg:text-5xl font-bold bg-clip-text bg-gradient-to-r from-purple-700 to-purple-300 text-transparent pb-2 wow fadeInUp">
+        <h2 className="mt-4 text-3xl md:text-4xl lg:text-5xl font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-purple-300 text-transparent pb-2 wow fadeInUp">
           Unlock Your Financial{" "}
           <span className="block">Potential with Share Newz Today!</span>
         </h2>
