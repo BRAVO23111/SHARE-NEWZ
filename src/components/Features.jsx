@@ -1,7 +1,7 @@
 import React from "react";
-import Picture1 from "./assets/Picture1.jpg";
-import Picture2 from "./assets/Picture2.jpg";
-import Picture3 from "./assets/Picture3.jpg";
+import Picture1 from "../assets/Picture1.jpg";
+import Picture2 from "../assets/Picture2.jpg";
+import Picture3 from "../assets/Picture3.jpg";
 const Features = () => {
   return (
     <>

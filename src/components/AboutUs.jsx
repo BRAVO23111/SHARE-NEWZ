@@ -1,6 +1,6 @@
 import React from "react";
-import Picture4 from "./assets/Picture4.jpg";
-import Picture6 from "./assets/Picture6.jpg";
+import Picture4 from "../assets/Picture4.jpg";
+import Picture6 from "../assets/Picture6.jpg";
 
 const AboutUs = () => {
   return (
