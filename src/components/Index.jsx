@@ -14,8 +14,8 @@ const IndexPage = () => {
           financial success. Start investing wisely today!
         </p>
         <a
-          href="#"
-          className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 transition duration-300 transform hover:scale-105"
+          href="#"focus:ring-4
+          className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800  focus:ring-blue-300 dark:focus:ring-blue-900 transition duration-300 transform hover:scale-105"
         >
           Book for a Free Consultancy
           <svg
