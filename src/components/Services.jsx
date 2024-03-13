@@ -1,6 +1,6 @@
 import React from "react";
-import Picture4 from "../assets/Picture4.jpg";
-import Picture6 from "../assets/Picture6.jpg";
+import Picture8 from "../assets/Picture8.jpg";
+import Picture7 from "../assets/Picture7.jpg";
 
 const Services = () => {
   return (
@@ -22,13 +22,29 @@ const Services = () => {
             through investment options, budgeting strategies, and financial
             planning to help you achieve your financial goals
           </p>
-          <button className="mt-8 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-opacity duration-300">
-            Let's Talk
-          </button>
+          <div className="flex justify-center md:justify-start mt-8">
+          <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 pr-10 pl-4 rounded-full transition-opacity duration-300 relative hover:scale-105">
+              Let's Talk
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="w-6 h-6 ml-10 absolute top-1/2 -translate-y-1/2 right-2 text-blue-200 hover:text-blue-100 transition-colors duration-300"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
         <div>
           <img
-            src={Picture4}
+            src={Picture7}
             alt="Our Mission"
             className="w-full h-auto md:max-h-80 rounded-md shadow-lg"
           />
@@ -37,7 +53,7 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center mt-40 gap-28 animate-fade-in transition-opacity duration-100">
         <div>
           <img
-            src={Picture6}
+            src={Picture8}
             alt="Our Vision"
             className="w-full h-auto md:max-h-80 rounded-md shadow-lg"
           />
@@ -52,9 +68,25 @@ const Services = () => {
             of mutual funds that align with your financial goals, ensuring a
             diversified and optimal investment strategy for you
           </p>
-          <button className="mt-8 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-opacity duration-300">
-            Let's Talk
-          </button>
+          <div className="flex justify-center md:justify-start mt-8">
+            <button className="bg-blue-500 hover:bg-blue-800 text-white font-bold py-3 pr-10 pl-4 rounded-full transition-opacity duration-300 relative hover:scale-105 ">
+              Let's Talk
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="w-6 h-6 ml-10 absolute top-1/2 -translate-y-1/2 right-2 text-blue-200 hover:text-blue-100 transition-colors duration-300"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>

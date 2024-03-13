@@ -40,7 +40,7 @@ const AboutUs = () => {
           />
         </div>
         <div className="text-center md:text-left">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">Our Mission</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">Our Vision</h1>
           <p className="text-lg italic mt-6">
             We envision a world where everyone, regardless of their financial
             background, has the opportunity to build wealth and financial

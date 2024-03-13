@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import Services from './components/Services';
 import PricingPage from './components/Pricing';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/services" element={<Services/>} />
         <Route path="/pricing" element={<PricingPage />} />
+        <Route path='/login' element={<Login/>}/>
       </Routes>
       <Footer />
     </Router>
