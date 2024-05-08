@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineUser, AiOutlineLock } from 'react-icons/ai';
 
-const Login = () => {
+const Register = () => {
   return (
     <div className="max-w-lg mx-auto bg-gradient-to-r from-purple-400 to-purple-600 shadow-lg rounded-lg p-6 mb-6 text-center mt-20">
-      <h2 className="text-2xl font-bold mb-6 text-white">Login</h2>
+      <h2 className="text-2xl font-bold mb-6 text-white">Register</h2>
       <form className="space-y-4">
         <div className="flex items-center  rounded">
           <span className="p-3 text-gray-500">
@@ -36,17 +36,13 @@ const Login = () => {
           />
         </div>
         <div className="flex items-center justify-between">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline ml-48" type="button">
-            Login
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline ml-44" type="button">
+            Register
           </button>
         </div>
-        <Link to="/register" className="text-white hover:underline mt-4 block">
-          Register with us today!
-        </Link>
-
       </form>
     </div>
   );
 };
 
-export default Login;
+export default Register;

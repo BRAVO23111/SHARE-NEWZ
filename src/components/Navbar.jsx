@@ -91,17 +91,7 @@ const Navbar = () => {
                     Services
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    to="/pricing"
-                    className="flex items-center block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 font-semibold hover:no-underline hover:text-bold dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover:scale-105"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 mr-2">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 8.25H9m6 3H9m3 6-3-3h1.5a3 3 0 1 0 0-6M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                    </svg>
-                    Pricing
-                  </Link>
-                </li>
+                
                 <li>
                   <Link
                     to="/contact"

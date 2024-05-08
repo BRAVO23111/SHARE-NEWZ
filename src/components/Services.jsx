@@ -44,7 +44,7 @@ const Services = () => {
         </div>
         <div>
           <img
-            src={Picture7}
+            src="https://i.postimg.cc/JzzcBtzv/Picture7.jpg"
             alt="Our Mission"
             className="w-full h-auto md:max-h-80 rounded-md shadow-lg"
           />
@@ -53,7 +53,7 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center mt-40 gap-28 animate-fade-in transition-opacity duration-100">
         <div>
           <img
-            src={Picture8}
+            src="https://i.postimg.cc/nhqZBVSK/Picture8.jpg"
             alt="Our Vision"
             className="w-full h-auto md:max-h-80 rounded-md shadow-lg"
           />

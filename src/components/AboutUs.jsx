@@ -25,7 +25,7 @@ const AboutUs = () => {
         </div>
         <div>
           <img
-            src={Picture4}
+            src="https://i.postimg.cc/5jcqCmjm/Picture4.jpg"
             alt="Our Mission"
             className="w-full h-auto md:max-h-80 rounded-md shadow-lg"
           />
@@ -34,7 +34,7 @@ const AboutUs = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center mt-40 gap-28">
         <div>
           <img
-            src={Picture6}
+            src="https://i.postimg.cc/gJQBg8nx/Picture5.jpg"
             alt="Our Vision"
             className="w-full h-auto md:max-h-80 rounded-md shadow-lg"
           />

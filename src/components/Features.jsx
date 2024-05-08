@@ -18,7 +18,7 @@ const Features = () => {
       </div>
       <div className="grid grid-rows grid-flow-col gap-20 justify-self-center mt-36">
         <div className="text-center ml-48 h-32 mx-auto">
-          <img src={Picture1} alt="" />
+          <img src="https://i.postimg.cc/V6VJSL59/Picture1.png" alt="" />
         </div>
         <div class="text-center justify-between mt-36 mr-24">
           <h1 class="text-4xl font-bold">
@@ -44,12 +44,12 @@ const Features = () => {
           </p>
         </div>
         <div className="text-center mt-5 mr-48 h-32 mx-auto">
-          <img src={Picture2} alt="" />
+          <img src="https://i.postimg.cc/8PD7j3z0/Picture2.png" alt="" />
         </div>
       </div>
       <div className="grid grid-rows grid-flow-col gap-20 justify-self-center mt-60">
         <div className="text-center ml-48 h-32 mx-auto">
-          <img src={Picture3} alt="" />
+          <img src="https://i.postimg.cc/WzYxLCW1/Picture3.png" alt="" />
         </div>
         <div class="text-center justify-between mt-56 mr-24">
           <h1 class="text-4xl font-bold">
