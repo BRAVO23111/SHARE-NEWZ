@@ -1,6 +1,4 @@
 import React from "react";
-import Picture8 from "../assets/Picture8.jpg";
-import Picture7 from "../assets/Picture7.jpg";
 
 const Services = () => {
   return (
