@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "/Users/debanjanmukherjee/Desktop/SHARE NEWZ/frontend/src/assets/Logo.jpg";
 
 const Navbar = () => {
   return (
